@@ -1,0 +1,12 @@
+# .gitignore
+# By: Jacob Bechmann Pedersen
+# Date: 2019-01-27
+
+# All the latex leftovers are left untracked:
+*.aux
+*.log
+*.out
+*.synctex.gz
+/*.pdf
+
+#.pdf file will not be committed, and only manually updated in the ./examples directory.

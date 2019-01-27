@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.2 (2019-01-27)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) with further modifications by
+% Jacob Bechmann Pedersen (jacob.bp@mvb.net)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, hidelinks]{twentysecondcv} % a4paper for A4
+\usepackage[utf8]{inputenc}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{placeholder.png} % Profile picture
+
+\cvname{Navn Efternavn} % Your name
+\cvjobtitle{Titel eller uddannelse} % Job title/career
+
+\cvdate{01. måned 1999} % Date of birth
+\cvaddress{Sted, 1. sal dør 1, 1111 Bystad} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+45 88888888} % Phone number
+\cvsite{} % Personal website
+\cvmail{eksempel@mail.dk} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+% To have no About Me section, just remove all the text and leave \aboutme{}.
+\aboutme{
+Jeg er en person, der skriver CV'er for hyggens skyld. Mit passionerede, men strukturerede arbejde med CV'er giver typisk afkast i form af jobsamtaler og ansættelser.
+} 
+
+% Skill section
+% Modified by Jacob Bechmann Pedersen
+% Syntax:
+% \skills{Field1, Field2, ..}{{Field1/Skill}, {Field2/Skill}, ..}
+\skills{Dokumenter, Administration}{{Dokumenter/\textrm{\large \LaTeX}}, {Dokumenter/Office-Pakken}, {Administration/Bogførsel}, {Administration/Emails}}
+
+% Languages section
+% By Jacob Bechmann Pedersen
+% Syntax:
+% \languages{{Language/Level}, {Language/Level}, ..}
+\languages{{Dansk/flydende}, {Engelsk/flydende}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+%\section{Ansøgning og CV}
+\textbf{\Huge\color{mainblue} Ansøgning og CV}
+
+Hej Virksomhed,
+
+% Beskriv motivation:
+Jeg har altid været en dokumenthaj, og jeres åbne stilling som \textrm{\large \LaTeX}-editor til jeres dokumentationsafdeling har i høj grad fanget min interesse!
+
+% Beskriv hvad du kan bidrage med:
+Mine kompetancer spænder bredt, og jeg er velbekendt med dokumentarbejde i hele office-pakken, samt typesætning i \textrm{\large \LaTeX}. Det betyder jeg kan give jer rutineret og kyndig assistance i udarbejdningen af disse.
+
+Tidligere har jeg som skribent og redaktør hos Bogforlaget både redigeret og rettet i mange dokumenter. Redaktørposten har desuden indeholdt små administrative opgaver, som f.eks. bogførsel og email-korrespondencer med klienter.
+
+Alt dette og meget mere vil jeg tilbyde jer!
+
+% Beskriv dig som kollega:
+Som kollega møder jeg altid op med et smil, og går struktureret til værks med dagens opgaver. Min strukturerede tilgang forhindrer mig dog ikke i at være imødekommende overfor mine kollegaer, og jeg værdsætter at tale frit og åbent om opgaver med konstruktiv feedback!
+
+Jeg glæder mig til at høre fra jer!
+
+\section{Uddannelse}
+
+\begin{twenty} % Environment for a list with descriptions
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+	\twentyitem{%\scriptsize{aug. 2015 - jan. 2019
+				2015-2019}{Bachelor - Uddannelse}{Universitetet}{Bachelorprojekt om dokumenter. Bl.a. brugen af \textrm{\large \LaTeX} til dokumentforberedelse i industrien.}
+	\twentyitem{%\scriptsize{aug. 2012 - jun. 2015
+				2012-2015}{Højere Teknisk Eksamen}{Herningsholm HTX}{Kommunikation/IT linjen, med dokumentation som teknikfag.}
+\end{twenty}
+
+\section{Erhvervserfaring}
+
+\begin{twenty} % Environment for a list with descriptions
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+	\twentyitem{%\scriptsize{apr. 2016 - jul. 2017
+				2015-2019}{Redaktør}{Bogforlaget}{Redigering, rettelse af dokumenter. Korrespondencer med klienter.}
+	\twentyitem{%\scriptsize{sep. 2015 - jan. 2019
+				2012-2015}{Skribent}{Bogforlaget}{Skrevet indslægssedler og annoncer, sendt til tryk.}
+\end{twenty}
+
+\section{Frivilligt arbejde}
+
+\begin{twenty} % Environment for a list with descriptions
+%	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+	\twentyitem{%\scriptsize{okt. 2015 - maj. 2018
+		2012-nu}{Ældre-IT}{Kommunens Bibliotek}{Undervisning og vejledning af seniorer i brug af IT (mails, office-værktøjer).}
+\end{twenty}
+
+\end{document} 
